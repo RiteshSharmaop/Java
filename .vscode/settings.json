@@ -1,0 +1,14 @@
+{
+    "java.project.sourcePaths": [
+        "String_Method",
+        "Home_work_and_Practice_Questions/Loop",
+        "Home_work_and_Practice_Questions/Lecture3",
+        "Home_work_and_Practice_Questions/Lecture 2",
+        "Home_work_and_Practice_Questions/Array",
+        "Functions",
+        "Arrays",
+        ""
+    ],
+    "java.autobuild.enabled": false,
+    "java.references.includeAccessors": false
+}
