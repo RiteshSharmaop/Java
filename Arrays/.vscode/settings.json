@@ -1,10 +1,27 @@
 {
     "java.project.sourcePaths": [
+        "LovebabbarYt",
         "LoveBabbar2D",
         "LoveBabbar",
+        "BinarySearch",
         "ArrayProblems1",
         "2D Arrays",
         "1D Array Questions",
-        "LovebabbarYt"
+        "CharacterArray&String"
+    ],
+    "sqltools.connections": [
+        {
+            "mysqlOptions": {
+                "authProtocol": "default"
+            },
+            "previewLimit": 50,
+            "server": "localhost",
+            "port": 3306,
+            "driver": "MySQL",
+            "name": "FirstConnection",
+            "database": "Student",
+            "username": "admin",
+            "password": "dhoniritesh"
+        }
     ]
 }

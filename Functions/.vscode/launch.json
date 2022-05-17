@@ -1,0 +1,138 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        
+        {
+            "type": "java",
+            "name": "Attach",
+            "request": "attach",
+            "hostName": "localhost",
+            "port": "<debug port of the debuggee>"
+        },
+        {
+            "type": "java",
+            "request": "attach",
+            "name": "Attach by Process ID",
+            "processId": "${command:PickJavaProcess}"
+        },
+        {
+            "type": "java",
+            "name": "Attach to Remote Program",
+            "request": "attach",
+            "hostName": "<The host name or ip address of remote debuggee>",
+            "port": "<debug port of remote debuggee>"
+        },
+        {
+            "type": "java",
+            "name": "Launch Java Program",
+            "request": "launch",
+            "mainClass": ""
+        },
+        {
+            "type": "java",
+            "name": "Launch Current File",
+            "request": "launch",
+            "mainClass": "${file}"
+        },
+        {
+            "type": "java",
+            "name": "Launch External Terminal",
+            "request": "launch",
+            "console": "externalTerminal",
+            "mainClass": ""
+        },
+        {
+            "type": "java",
+            "name": "Launch with Arguments Prompt",
+            "request": "launch",
+            "mainClass": "",
+            "args": "${command:SpecifyProgramArgs}"
+        },
+        {
+            "type": "java",
+            "name": "Launch Current File",
+            "request": "launch",
+            "mainClass": "${file}"
+        },
+        {
+            "type": "java",
+            "name": "Launch Factorial",
+            "request": "launch",
+            "mainClass": "Factorial",
+            "projectName": "Functions_9593d31c"
+        },
+        {
+            "type": "java",
+            "name": "Launch FunctionsAndMethods",
+            "request": "launch",
+            "mainClass": "FunctionsAndMethods",
+            "projectName": "Functions_9593d31c"
+        },
+        {
+            "type": "java",
+            "name": "Launch PrimeOrNot",
+            "request": "launch",
+            "mainClass": "HomeWork.PrimeOrNot",
+            "projectName": "Functions_9593d31c"
+        },
+        {
+            "type": "java",
+            "name": "Launch ok",
+            "request": "launch",
+            "mainClass": "HomeWork.ok",
+            "projectName": "Functions_9593d31c"
+        },
+        {
+            "type": "java",
+            "name": "Launch EvenTillN",
+            "request": "launch",
+            "mainClass": "Lovebabbar.EvenTillN",
+            "projectName": "Functions_9593d31c"
+        },
+        {
+            "type": "java",
+            "name": "Launch ok(1)",
+            "request": "launch",
+            "mainClass": "Lovebabbar.ok",
+            "projectName": "Functions_9593d31c"
+        },
+        {
+            "type": "java",
+            "name": "Launch okk",
+            "request": "launch",
+            "mainClass": "Lovebabbar.okk",
+            "projectName": "Functions_9593d31c"
+        },
+        {
+            "type": "java",
+            "name": "Launch Question3",
+            "request": "launch",
+            "mainClass": "Question3",
+            "projectName": "Functions_9593d31c"
+        },
+        {
+            "type": "java",
+            "name": "Launch fact",
+            "request": "launch",
+            "mainClass": "fact",
+            "projectName": "Functions_9593d31c"
+        },
+        {
+            "type": "java",
+            "name": "Launch multiOfTwo",
+            "request": "launch",
+            "mainClass": "multiOfTwo",
+            "projectName": "Functions_9593d31c"
+        },
+        {
+            "type": "java",
+            "name": "Launch sumOfTwo",
+            "request": "launch",
+            "mainClass": "sumOfTwo",
+            "projectName": "Functions_9593d31c"
+        }
+    ]
+}

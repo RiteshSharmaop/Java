@@ -12,5 +12,5 @@ public class FunctionsAndMethods {
         //call kiya Function Ko
         printMyName(name);
     }
-    
+    //ok
 }

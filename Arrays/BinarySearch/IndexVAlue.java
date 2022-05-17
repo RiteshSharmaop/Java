@@ -1,7 +1,5 @@
-// package BinarySearch;
-
-public class value_Index {
-    public static int indexx (int arr[], int target, int n){
+public class IndexVAlue {
+    public static void indexx (int arr[], int target, int n){
         int start = 0;
         int end = arr[n-1];
         
@@ -9,7 +7,7 @@ public class value_Index {
             int mid = start +(start + end ) /2 ;
             int midd = arr[mid];
             if(target ==midd){
-                return 0;
+                System.out.println("yes");
             }
             if(target > midd){
                 arr[start] = midd+1;
@@ -19,7 +17,7 @@ public class value_Index {
             }
 
         }
-        return -1;
+        System.out.println("no");
         
     }
     public static void main(String[] args){
@@ -27,10 +25,15 @@ public class value_Index {
         int n = arr.length;
         int target= 4;
 
+
+
+
         // System.out.println(indexx(arr, target,n));
         // C:\Users\sharm\AppData\Local\Programs\Eclipse Adoptium\jdk-17.0.2.8-hotspot\
         // C:\Program Files\Common Files\Oracle\Java\javapath
-        indexx(arr, target,n);
-        System.out.println(indexx(arr, target, n));
+        // indexx(arr, target,n);
+        // System.out.println(indexx(arr, 4, 7));
+        indexx(arr, 4, 7);
     }
+
 }

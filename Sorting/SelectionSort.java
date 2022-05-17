@@ -1,4 +1,4 @@
-package Sorting;
+// package Sorting
 
 public class SelectionSort {
     public static void PrintArray(int arr[]){
