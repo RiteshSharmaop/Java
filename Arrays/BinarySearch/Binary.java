@@ -33,6 +33,7 @@ public class Binary {
         }else{
             System.out.println(-1);
         }
+        System.out.println(arr.length);
 
 
     }
