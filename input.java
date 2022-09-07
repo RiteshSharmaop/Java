@@ -11,6 +11,6 @@ public class input {
         System.out.println(age);
         System.out.println(cgpa);
         sc.close();
-
+    
     }
 }
