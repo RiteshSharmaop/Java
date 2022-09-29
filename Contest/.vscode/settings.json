@@ -7,6 +7,7 @@
     "files.associations": {
         "*.cpp": "cpp",
         "iostream": "cpp",
-        "random": "cpp"
+        "random": "cpp",
+        "ostream": "cpp"
     }
 }
