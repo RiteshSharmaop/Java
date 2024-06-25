@@ -10,10 +10,10 @@ public class halfPyramid {
         ***
         ****
         */
-        int k =4;
-        for(int p =1;p<=k;p++){
-            for(int t=1;t<=p;t++){
-                System.out.print("*");
+        int n =4;
+        for(int i =1;i<=n;i++){
+            for(int t=1;t<=i;t++){
+                System.out.print("* ");
             }
             System.out.println();
         }

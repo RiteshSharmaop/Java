@@ -1,9 +1,7 @@
-package String_Builders;
-
-
-
-public class StringByuilding{
-    public static void main(String[] args) {    
+/*package String_Builders;*/
+class StringByuilding{
+    public static void main(String[] args) 
+    {    
         StringBuilder sb = new StringBuilder("ritesh");
         System.out.println(sb);
 
@@ -11,7 +9,8 @@ public class StringByuilding{
         System.out.println(sb.charAt(0));
         
          //by using loop we print characters
-        for (int i =0;i<sb.length();i++){
+        for (int i = 0; i < sb.length();i++)
+        {
             System.out.println(sb.charAt(i));
         }
 

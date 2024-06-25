@@ -1,5 +1,8 @@
 public class gfg {
     public static void main(String[] args){
-        System.out.println("HII");
+        StringBuilder s = new StringBuilder("Ritesh");
+        System.out.println(s);
+        s += " Sharma";
+        System.out.println(s);
     }
 }
