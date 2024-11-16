@@ -2,7 +2,7 @@ import java.lang.reflect.Array;
 import java.util.*;
 
 public class assignmentRitesh {
-    public void question1(){
+    public static void question1(){
         Scanner sc = new Scanner(System.in);
         int n = sc.nextInt();
         int arr[] = new int[n];
@@ -16,7 +16,7 @@ public class assignmentRitesh {
         System.out.println("All Are there");
         sc.close();
     }
-    public void question2(){
+    public static void question2(){
         Scanner sc = new Scanner(System.in);
         int n = sc.nextInt() ;
         int sum = 0;
@@ -29,7 +29,7 @@ public class assignmentRitesh {
         System.out.println("Avg: " + sum/n);
         sc.close();
     }
-    public void question3(){
+    public static void question3(){
         Scanner sc = new Scanner(System.in);
         int n = sc.nextInt() ;
         int sum = 0;
@@ -52,7 +52,7 @@ public class assignmentRitesh {
         }System.out.println();
         sc.close();
     }
-    public void question4(){
+    public static void question4(){
         Scanner sc = new Scanner(System.in);
         int n = sc.nextInt() ;
         int k = sc.nextInt() ;
