@@ -19,6 +19,11 @@ public class String_1 {
         System.out.println("Your FullName is: "+fullName);
         System.out.println("\n");
 
+        System.out.println(name);
+        name = "Ritesh";
+        System.out.println(name);
+        System.out.println(fullname.charAt(0));
+        System.out.println();
         
 
 
